@@ -18,9 +18,8 @@ Sample Output
 -1
 1 3
 """
-
+#this function handles file I/O
 def rosalind_2sum(f1,f2):
-    # example usage: rosalind_2sum('rosalind_2sum.txt', 'rosalind_2sum_output.txt')
     f_in = open(f1)
     f_out = open(f2,'w')
     k,n = [int(x) for x in f_in.readline().split()]
@@ -30,6 +29,7 @@ def rosalind_2sum(f1,f2):
     f_in.close()
     f_out.close()
 
+# algorithm for this two sum problem
 def two_sum(A):
     n = len(A)
     P = [p for p in range(n) if A[p] == 0]
