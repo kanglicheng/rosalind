@@ -1,9 +1,9 @@
 """
 Problem
 
-Given: A positive integer k≤20k≤20, a positive integer n≤104n≤104, and kk arrays of size nn containing integers from −105−105 to 105105.
+Given: A positive integer k ≤20, a positive integer n≤10^4, and k arrays of size n containing integers from −10^5 to 10^5.
 
-Return: For each array A[1..n]A[1..n], output two different indices 1≤p<q≤n1≤p<q≤n such that A[p]=−A[q]A[p]=−A[q] if exist, and "-1" otherwise.
+Return: For each array A[1..n], output two different indices 1≤p<q≤n such that A[p]=−A[q] if such exist, and "-1" otherwise.
 
 Sample Dataset
 4 5
